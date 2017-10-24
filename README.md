@@ -14,7 +14,7 @@ POST - Employees overtime posted
 
 Complete: User - Devise user
 
-Admin User - Will use Single Table Inheritance (STI)
+Complete: Admin User - Will use Single Table Inheritance (STI)
 
 ## Features
 
