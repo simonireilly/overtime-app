@@ -12,7 +12,7 @@ POST - Employees overtime posted
 * Date
 * Rationale
 
-User - Devise user
+Complete: User - Devise user
 
 Admin User - Will use Single Table Inheritance (STI)
 
