@@ -42,3 +42,6 @@ Complete: Admin User - Will use Single Table Inheritance (STI)
 * Dotenv - Manage secure credentials
 * Rspec - Testing
 * Capybara - Integration testing
+
+## Refactor To Do's
+- Refactor user association integration test in post_spec
