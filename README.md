@@ -8,13 +8,13 @@ Created Monday 23 October 2017
 
 ## Models
 
-POST - Employees overtime posted
-* Date
-* Rationale
+- Complete: POST - Employees overtime posted
+    * Date
+    * Rationale
 
-Complete: User - Devise user
+- Complete: User - Devise user
 
-Complete: Admin User - Will use Single Table Inheritance (STI)
+- Complete: Admin User - Will use Single Table Inheritance (STI)
 
 ## Features
 
