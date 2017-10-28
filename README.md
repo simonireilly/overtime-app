@@ -45,3 +45,4 @@ Created Monday 23 October 2017
 
 ## Refactor To Do's
 - Refactor user association integration test in post_spec
+- Add full name method for users
