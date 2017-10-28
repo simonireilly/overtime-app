@@ -28,7 +28,7 @@ Created Monday 23 October 2017
 
 3. There will be an Admin dashboard - Administrate Gem
 
-4. Summary email to amangers for approval (Admin users)
+4. Summary email to managers for approval (Admin users)
 
 5. It must be documented if an employee does not log overtime
 
@@ -45,4 +45,3 @@ Created Monday 23 October 2017
 
 ## Refactor To Do's
 - Refactor user association integration test in post_spec
-- Add full name method for users
