@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 git_source(:github) do |repo_name|
 end
 
+ruby '2.4.0'
 
 gem 'rails', '~> 5.1.4'
 gem 'pg', '~> 0.18'
