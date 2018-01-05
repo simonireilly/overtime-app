@@ -36,7 +36,7 @@ Created Monday 23 October 2017
 
 - [x] Bootstrap for formatting
 - [ ] Icons from font awesome
-- [ ] Update the style for the forms
+- [x] Update the style for the forms
 
 ## Gems
 
