@@ -1,4 +1,10 @@
 <%= form_for @post, html: {class: 'form-horizontal'} do |f| %>
+    <% if @post.errors.any? %>
+        <% @post.errors.full_messages.each do |message| %>
+            <%= js add_gritter(message, title: 'Overtime App Notification', sticky: false, image: :notice) %>
+        <% end %>
+    <% end %>
+
     <div class="form-group">
       <%= f.label :date, class: 'control-label'%>
       <%= f.date_field :date, class: 'form-control' %>
