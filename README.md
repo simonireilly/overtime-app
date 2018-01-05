@@ -18,19 +18,12 @@ Created Monday 23 October 2017
 
 ## Features
 
-1. There must be an approval work flow 
-
-	a. e.g. A created post by user, will be able to be approved by the Admin
-
-2. We'll need text messages to remind the user (clients are non-technical field workers)
-
-	a. This will include a link to log time
-
-3. There will be an Admin dashboard - Administrate Gem
-
-4. Summary email to managers for approval (Admin users)
-
-5. It must be documented if an employee does not log overtime
+- Approval workflow
+- SMS sending -> link to approval or overtime input
+- Administrate admin dashboard
+- Block non admin and guest users from administrate
+- Email summary to managers for approval
+- Needs to be documented if employee did not log overtime
 
 ## UI
 
