@@ -18,7 +18,7 @@ describe 'admin dashboard' do
 
   it 'can be reached by an admin user' do
     adminuser = FactoryGirl.create(:admin_user)
-    login_as(adminuser)
+    login_as(adminuser, scope: :user)
 
     visit admin_root_path
 

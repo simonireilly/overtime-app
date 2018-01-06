@@ -8,17 +8,19 @@ class PostDashboard < Administrate::BaseDashboard
     rationale: Field::Text.with_options(searchable: true),
     created_at: Field::DateTime.with_options(searchable: false),
     updated_at: Field::DateTime.with_options(searchable: false),
+    status: Field::Select.with_options(searchable: false, collection: Post::statuses.map {|status| status[0]})
   }.freeze
 
   COLLECTION_ATTRIBUTES = %i[
     user
-    id
+    status
     date
     rationale
   ].freeze
 
   SHOW_PAGE_ATTRIBUTES = %i[
     user
+    status
     id
     date
     rationale
@@ -30,6 +32,7 @@ class PostDashboard < Administrate::BaseDashboard
     user
     date
     rationale
+    status
   ].freeze
 
 end

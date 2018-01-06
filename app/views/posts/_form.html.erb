@@ -13,6 +13,9 @@
       <%= f.label :rationale, class: 'control-label'%>
       <%= f.text_area :rationale, class: 'form-control' %>
     </div>
+    <div class="form-group">
+      <%= f.collection_radio_buttons :status, Post.statuses, :first, :first %>
+    </div>
 
     <%= f.submit 'Save', class: 'btn btn-primary btn-block' %>
 
