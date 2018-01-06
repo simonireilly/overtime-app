@@ -18,12 +18,22 @@ Created Monday 23 October 2017
 
 ## Features
 
-- Approval workflow
-- SMS sending -> link to approval or overtime input
-- Administrate admin dashboard
-- Block non admin and guest users from administrate
-- Email summary to managers for approval
-- Needs to be documented if employee did not log overtime
+[ ] Approval workflow
+- Status to be added to post
+- Require status
+- Give default
+- Implement approval stages
+- Include locking
+
+[ ] SMS sending -> link to approval or overtime input
+
+[x] Administrate admin dashboard
+
+[x] Block non admin and guest users from administrate
+
+[ ] Email summary to managers for approval
+
+[ ] Needs to be documented if employee did not log overtime
 
 ## UI
 
