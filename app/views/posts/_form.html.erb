@@ -1,6 +1,7 @@
 <%= form_for @post do |f| %>
+
     <% if @post.errors.any? %>
-        <% @post.errors.full_messages.each do |message| %>
+        <%= @post.errors.full_messages.each do |message| %>
             <%= js add_gritter(message, title: 'Overtime App Notification', sticky: false, image: :notice) %>
         <% end %>
     <% end %>

@@ -1,0 +1,3 @@
+<% flash.each do |type, msg| %>
+  <%= js add_gritter(msg, title: "Overtime App #{type.to_s}", sticky: true, image: :notice) %>
+<% end %>
