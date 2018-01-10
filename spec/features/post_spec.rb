@@ -5,7 +5,7 @@ require 'rails_helper'
 describe 'navigate' do
   let(:user) { FactoryGirl.create(:user) }
   let(:post) do
-    Post.create(date: Date.today, rationale: 'asdfasdf', user_id: user.id)
+    Post.create(date: Date.today, rationale: 'asdfasdf', overtime_request: 2.5, user_id: user.id)
   end
   before do
     login_as(user, :scope => :user)
@@ -36,7 +36,7 @@ describe 'navigate' do
 
       other_user = User.create(first_name: 'Non', last_name: 'Authorized',email: 'asdf@asdf.com', password: 'asdfasdf',
                                password_confirmation: 'asdfasdf')
-      post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id)
+      post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", overtime_request: 2.5, user_id: other_user.id)
 
       visit posts_path
       expect(page).to_not have_content(/This post shouldn't be seen/)
@@ -58,7 +58,7 @@ describe 'navigate' do
       delete_user = FactoryGirl.create(:user)
       login_as(delete_user, scope: :user)
 
-      post_to_delete = Post.create(date: Date.today, rationale: 'asdfasdf', user_id: delete_user.id)
+      post_to_delete = Post.create(date: Date.today, rationale: 'asdfasdf', overtime_request: 2.5, user_id: delete_user.id)
 
       visit posts_path
       click_link("delete_post_#{post_to_delete.id}")
