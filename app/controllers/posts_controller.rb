@@ -39,6 +39,7 @@ class PostsController < ApplicationController
   end
 
   def destroy
+    authorize @post
     if @post.delete
       redirect_to posts_path
       flash[:warning] = 'Your post was deleted'
