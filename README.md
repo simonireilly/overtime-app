@@ -11,19 +11,11 @@ Created Monday 23 October 2017
 - Complete: POST - Employees overtime posted
     * Date
     * Rationale
-
 - Complete: User - Devise user
-
 - Complete: Admin User - Will use Single Table Inheritance (STI)
+- Incomplete: Auditlog model required
 
 ## Features
-
-[ ] Approval workflow
-- Status to be added to post
-- Require status
-- Give default
-- Implement approval stages
-- Include locking
 
 [ ] SMS sending -> link to approval or overtime input
 
@@ -35,10 +27,11 @@ Created Monday 23 October 2017
 
 [ ] Needs to be documented if employee did not log overtime
 
+
 ## UI
 
 - [x] Bootstrap for formatting
-- [ ] Icons from font awesome
+- [x] Icons from font glyphicons
 - [x] Update the style for the forms
 
 ## Gems
@@ -52,6 +45,6 @@ Created Monday 23 October 2017
 * Capybara - Integration testing
 
 ## Refactor To Do's
-- Refactor user association integration test in post_spec
-- Prevent delete once approved or rejected
+- [x] Refactor user association integration test in post_spec
+- [ ] Prevent delete once approved or rejected
 
