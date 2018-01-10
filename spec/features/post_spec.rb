@@ -61,7 +61,7 @@ describe 'navigate' do
       post_to_delete = Post.create(date: Date.today, rationale: 'asdfasdf', user_id: delete_user.id)
 
       visit posts_path
-      click_link("delete_post_#{post_to_deleteg.id}")
+      click_link("delete_post_#{post_to_delete.id}")
       expect(page.status_code).to eq(200)
     end
   end
