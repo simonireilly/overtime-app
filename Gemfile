@@ -25,6 +25,7 @@ gem 'twilio-ruby', '~> 5.6'
 
 
 group :development, :test do
+  gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
