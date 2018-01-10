@@ -41,5 +41,17 @@ describe 'navigate' do
 
       expect(current_path).to eq(root_path)
     end
+
+    it 'it does not have delete options if approved or rejected' do
+      @post.update(status: 'approved')
+
+      visit posts_path
+
+      expect(page).to_not have_link("delete_post_#{@post.id}")
+    end
+
+    xit 'cannot be destroyed if it is approved or rejected' do
+
+    end
   end
 end
