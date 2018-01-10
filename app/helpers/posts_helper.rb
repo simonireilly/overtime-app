@@ -6,7 +6,7 @@ module PostsHelper
   private
 
   def status_span_generator status
-    bootstrap_classes = { approved: 'success', submitted: 'primary', rejceted: 'danger' }
+    bootstrap_classes = { approved: 'success', submitted: 'primary', rejected: 'danger' }
     content_tag(:span, status.titleize, class: "label label-#{bootstrap_classes[status.to_sym]}")
   end
 end
