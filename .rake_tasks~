@@ -29,6 +29,7 @@ log:clear
 middleware
 notes
 notes:custom
+notification:sms
 restart
 routes
 secret
