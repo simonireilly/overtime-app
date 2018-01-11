@@ -1,6 +1,6 @@
 # Overtime
 
-Client Notes
+## Client Notes
 
 Created Monday 23 October 2017
 
@@ -8,25 +8,26 @@ Created Monday 23 October 2017
 
 ## Models
 
-- Complete: POST - Employees overtime posted
+- [x] POST - Employees overtime posted
     * Date
     * Rationale
-- Complete: User - Devise user
-- Complete: Admin User - Will use Single Table Inheritance (STI)
-- Incomplete: Auditlog model required
+- [x] User - Devise user
+- [x] Admin User - Will use Single Table Inheritance (STI)
+- [ ] Auditlog model required
 
 ## Features
+- [ ] Approval workflow
+- [ ] SMS sending -> link to approval or overtime input -> Integrate with heroku scheduler
+- [x] Administrate admin dashboard
+- [x] Block non admin and guest users from administrate
+- [ ] Email summary to managers for approval
+- [ ] Needs to be documented if employee did not log overtime
 
-[ ] SMS sending -> link to approval or overtime input
 
-[x] Administrate admin dashboard
+## Refactor To Do's
+- [ ] Prevent delete once approved or rejected
 
-[x] Block non admin and guest users from administrate
-
-[ ] Email summary to managers for approval
-
-[ ] Needs to be documented if employee did not log overtime
-
+# Build
 
 ## UI
 
@@ -45,6 +46,4 @@ Created Monday 23 October 2017
 * Rspec - Testing
 * Capybara - Integration testing
 
-## Refactor To Do's
-- [ ] Prevent delete once approved or rejected
 
