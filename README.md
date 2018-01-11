@@ -45,6 +45,6 @@ Created Monday 23 October 2017
 * Capybara - Integration testing
 
 ## Refactor To Do's
-- [x] Refactor user association integration test in post_spec
+- [ ] Integrate validation for user phone number with regex for uk phones
 - [ ] Prevent delete once approved or rejected
 
