@@ -39,12 +39,12 @@ Created Monday 23 October 2017
 * Devise - Mange user / admin
 * Administrate - Mange Admin Dashboard
 * Bootstrap - Styling
+* Pundit - admin and user policy
 * Twillio - Sending SMS
 * Dotenv - Manage secure credentials
 * Rspec - Testing
 * Capybara - Integration testing
 
 ## Refactor To Do's
-- [ ] Integrate validation for user phone number with regex for uk phones
 - [ ] Prevent delete once approved or rejected
 
