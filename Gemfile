@@ -22,6 +22,7 @@ gem 'bourbon'
 gem 'pundit', '~> 1.1'
 
 gem 'twilio-ruby', '~> 5.6'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 
 group :development, :test do

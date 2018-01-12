@@ -40,9 +40,11 @@ Created Monday 23 October 2017
 * Devise - Mange user / admin
 * Administrate - Mange Admin Dashboard
 * Bootstrap - Styling
+* gritter - js implemented flash messages
 * Pundit - admin and user policy
 * Twillio - Sending SMS
-* Dotenv - Manage secure credentials
+* kaminari - Pagination with refreshing pages
+* Dotenv - Manage secure credentials in development
 * Rspec - Testing
 * Capybara - Integration testing
 
