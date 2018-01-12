@@ -4,6 +4,10 @@ class PostPolicy < ApplicationPolicy
     return true if user_or_admin && !post_approved?
   end
 
+  def approve?
+    admin?
+  end
+
   def destroy?
     return false if post_approved? || post_rejected?
     return true if post_submitted
