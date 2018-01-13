@@ -9,10 +9,9 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+//  Took out //= require jquery_ujs post jquery as there were serious issues
 //= require rails-ujs
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap-sprockets
 //= require gritter
 //= require turbolinks
