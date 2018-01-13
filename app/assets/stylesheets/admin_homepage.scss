@@ -15,7 +15,11 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  &:hover{
+    background-color: #172b23;
+  }
 }
+
 
 .pending-details{
   font-weight: 900;
