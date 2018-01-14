@@ -1,10 +1,14 @@
 <div class="container-fluid">
   <div class="row">
+    <% if @pending_audit_confirmations.count > 0 %>
+      <div class="col-md-12 pending-homepage">
+        <h3>Pending your confirmation</h3>
+        <%= render partial: 'pending_audit_confirmations', locals: {pending_audit_confirmations: @pending_audit_confirmations} %>
+      </div>
+    <% end %>
     <div class="col-md-12 pending-homepage">
-      <h3>Pending your confirmation</h3>
-      <%= render partial: 'pending_audit_confirmations', locals: {pending_audit_confirmations: @pending_audit_confirmations} %>
-    </div>well    <div class="col-md-12 pending-homepage">
-      <p>Something special</p>
+      <h3>Request overtime</h3>
+      <%= link_to 'Request overtime approval', new_post_path, class: 'btn btn-success btn-block btn-lg' %>
     </div>
   </div>
 </div>

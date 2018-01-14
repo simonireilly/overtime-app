@@ -13,15 +13,15 @@ Created Monday 23 October 2017
     * Rationale
 - [x] User - Devise user
 - [x] Admin User - Will use Single Table Inheritance (STI)
-- [ ] Auditlog model required
+- [x] Auditlog model required
 
 ## Features
-- [ ] Approval workflow
+- [x] Approval workflow
 - [ ] SMS sending -> link to approval or overtime input -> Integrate with heroku scheduler
 - [x] Administrate admin dashboard
 - [x] Block non admin and guest users from administrate
 - [ ] Email summary to managers for approval
-- [ ] Needs to be documented if employee did not log overtime
+- [x] Needs to be documented if employee did not log overtime
 
 
 ## Refactor To Do's
