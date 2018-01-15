@@ -26,6 +26,7 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 
 group :development, :test do
+  gem 'letter_opener', '~> 1.6'
   gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
