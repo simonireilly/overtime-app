@@ -19,7 +19,7 @@ request or confirm overtime for last week application-overtime.herokuapp.com"
 
     if submitted_posts.count > 0
       admin_users.each do |admin|
-        ManagerMailer.email(admin).deliver_later
+        ManagerMailer.email(admin).deliver_now
       end
     end
   end

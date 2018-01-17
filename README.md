@@ -22,9 +22,16 @@ Created Monday 23 October 2017
 - [x] Block non admin and guest users from administrate
 - [x] No domain, so we can't configure right now - Email summary to managers for approval
 - [x] Needs to be documented if employee did not log overtime
-- [ ] Create an audit log when each text message is sent
+- [x] Create an audit log when each text message is sent
 - [ ] Update auditlog end date when confirmed
-
+- [ ] Need to update auditlog status when overtime is rejected
+- [ ] Update buttons on employee homepage
+- [ ] Update buttons to include time span
+- [ ] Update button sort order in employee page
+- [ ] Remove unnecessary navbar buttons for managers
+- [ ] Fix admin dashboard following adding employee
+- [ ] Implement honeybadger for error recording
+- [ ] Install new relic to ping heroku
 
 ## Refactor To Do's
 - [ ] Prevent delete once approved or rejected
