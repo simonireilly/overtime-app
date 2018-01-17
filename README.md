@@ -23,7 +23,7 @@ Created Monday 23 October 2017
 - [x] No domain, so we can't configure right now - Email summary to managers for approval
 - [x] Needs to be documented if employee did not log overtime
 - [x] Create an audit log when each text message is sent
-- [ ] Update auditlog end date when confirmed
+- [x] Update auditlog end date when confirmed
 - [ ] Need to update auditlog status when overtime is rejected
 - [ ] Update buttons on employee homepage
 - [ ] Update buttons to include time span
