@@ -23,6 +23,7 @@ Created Monday 23 October 2017
 - [x] No domain, so we can't configure right now - Email summary to managers for approval
 - [x] Needs to be documented if employee did not log overtime
 - [ ] Create an audit log when each text message is sent
+- [ ] Update auditlog end date when confirmed
 
 
 ## Refactor To Do's
