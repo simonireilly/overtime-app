@@ -30,7 +30,7 @@ Created Monday 23 October 2017
 - [x] Update button sort order in employee page
 - [x] Remove unnecessary navbar buttons for managers
 - [x] Fix admin dashboard following adding employee
-- [ ] Implement honeybadger for error recording
+- [x] Implement honeybadger for error recording
 - [ ] Install new relic to ping heroku
 
 ## Refactor To Do's

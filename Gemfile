@@ -24,6 +24,8 @@ gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.6'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
+gem 'newrelic_rpm'
+
 
 group :development, :test do
   gem 'letter_opener', '~> 1.6'
