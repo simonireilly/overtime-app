@@ -28,8 +28,8 @@ Created Monday 23 October 2017
 - [x] Update buttons on employee homepage
 - [x] Update buttons to include time span
 - [x] Update button sort order in employee page
-- [ ] Remove unnecessary navbar buttons for managers
-- [ ] Fix admin dashboard following adding employee
+- [x] Remove unnecessary navbar buttons for managers
+- [x] Fix admin dashboard following adding employee
 - [ ] Implement honeybadger for error recording
 - [ ] Install new relic to ping heroku
 
