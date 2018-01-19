@@ -7,6 +7,7 @@ describe 'navigate' do
   let(:post) do
     Post.create(date: Date.today, work_performed: 'asdfasdf', daily_hours: 2.5, user_id: user.id)
   end
+
   before do
     login_as(user, :scope => :user)
   end
@@ -26,10 +27,14 @@ describe 'navigate' do
     end
 
     it 'has a list of posts' do
-      post1 = FactoryGirl.build_stubbed(:post)
-      post2 = FactoryGirl.build_stubbed(:second_post)
-      page.refresh
-      expect(page).to have_content(/Work Performed|Content/)
+      post
+      second_post = FactoryGirl.create(:second_post)
+      second_post.update!(user_id: user.id)
+
+      visit posts_path
+
+      expect(page).to have_text(post.work_performed)
+      expect(page).to have_text(second_post.work_performed)
     end
 
     it 'has a scope so that only post creators can see their posts' do
