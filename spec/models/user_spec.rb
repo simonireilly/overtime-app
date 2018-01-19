@@ -21,15 +21,36 @@ RSpec.describe User, type: :model do
 
     it 'cannot be created without a phone number' do
       @user.phone = nil
-
       expect(@user).to_not be_valid
     end
+
     it 'requires the phone attr to only contain integers' do
       @user.phone = 'mygreatball'
       expect(@user).to_not be_valid
     end
+    
     it 'requires the phone attr to have only contain 11 characters' do
       @user.phone = '123456789111'
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires an ssn' do
+      @user.ssn = nil
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires a company' do
+      @user.ssn = nil
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires the ssn attr to only contain integers' do
+      @user.ssn = 'myst'
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires the ssn attr to have only contain 4 characters' do
+      @user.ssn = 12345
       expect(@user).to_not be_valid
     end
   end
