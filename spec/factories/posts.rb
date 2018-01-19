@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :post do
     date Date.today
-    rationale 'Some rationale'
+    work_performed 'Work Performed'
     daily_hours 0.5
     user
   end
@@ -9,7 +9,7 @@ FactoryGirl.define do
 
   factory :second_post, class: 'Post' do
     date Date.yesterday
-    rationale 'Some ,more content'
+    work_performed 'Some more content'
     daily_hours 3.5
     user
   end
